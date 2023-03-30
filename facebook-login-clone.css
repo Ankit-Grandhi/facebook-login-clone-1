@@ -1,0 +1,73 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+}
+
+body{
+    background-color: rgb(240, 242, 245);
+}
+
+.fb{
+    width:300px;
+
+}
+
+.card{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    padding:24px 15px 24px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.email,
+.password{
+    width:300px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid rgb(183, 176, 176);
+    padding-left: 12px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.login{
+    width:316px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgb(22, 111, 229);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    margin-bottom: 14px;
+    cursor:pointer;
+    transition:ease-in 0.25s;
+}
+
+.login:hover{
+    background-color: rgba(22, 111, 229,0.6);;
+}
+
+.page{
+    text-align: center;
+}
+
+.tags{
+    font-size: 14px;
+    color:rgb(22,111,229);
+}
+
+span:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
